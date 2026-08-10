@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class EmployeeSalarySort {
+    public static void main(String[] args) {
+        ArrayList<Integer> salaries = new ArrayList<>();
+
+        salaries.add(50000);
+        salaries.add(35000);
+        salaries.add(75000);
+        salaries.add(45000);
+        salaries.add(60000);
+
+        System.out.println("Salaries before sorting:");
+        System.out.println(salaries);
+
+        Collections.sort(salaries);
+
+        System.out.println("Salaries after sorting:");
+        System.out.println(salaries);
+    }
+}
