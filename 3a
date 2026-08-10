@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ReversePassword {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter password: ");
+        String password = sc.nextLine();
+
+        StringBuilder sb = new StringBuilder(password);
+        sb.reverse();
+
+        System.out.println("Reversed password: " + sb);
+        
+        sc.close();
+    }
+}
